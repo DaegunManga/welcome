@@ -17,7 +17,7 @@ function App() {
       <main>
         <img src="coding.jpg" alt="coding" />
       </main>
-      <footer>
+      <footer className="pt-6 px-3 pb-20 sm:pt-8 sm:px-6 sm:pb-24">
         <Contacts />
       </footer>
     </div>

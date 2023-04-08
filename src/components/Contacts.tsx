@@ -20,7 +20,7 @@ function Contacts() {
     },
   ];
   return (
-    <div className="float-right py-6 px-2 sm:py-8 sm:px-6">
+    <div className="float-right">
       <div className="flex space-x-2">
         {links.map((link) => (
           <IconLink key={link.url} {...link} />
