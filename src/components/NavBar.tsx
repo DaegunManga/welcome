@@ -42,13 +42,17 @@ function NavBar() {
           {navList.map((nav) =>
             isNavItem(nav) ? (
               <a
+                key={nav.text}
                 href={nav.url}
                 className="block w-full py-6 bg-white text-gray-800 text-center hover:bg-gray-100"
               >
                 {nav.text}
               </a>
             ) : (
-              <button className="block w-full py-6 bg-white text-gray-800 text-center hover:bg-gray-100">
+              <button
+                key={nav.text}
+                className="block w-full py-6 bg-white text-gray-800 text-center hover:bg-gray-100"
+              >
                 {nav.text}
               </button>
             )
@@ -61,6 +65,7 @@ function NavBar() {
         {navList.map((nav) =>
           isNavItem(nav) ? (
             <a
+              key={nav.text}
               href={nav.url}
               className="block p-5 text-sm text-gray-700 hover:bg-gray-100 hover:text-black lg:p-6 lg:text-base"
             >
