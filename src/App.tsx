@@ -17,7 +17,9 @@ function App() {
       <main>
         <img src="coding.jpg" alt="coding" />
       </main>
-      <Contacts />
+      <footer>
+        <Contacts />
+      </footer>
     </div>
   );
 }

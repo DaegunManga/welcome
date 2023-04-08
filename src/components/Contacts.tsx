@@ -20,15 +20,13 @@ function Contacts() {
     },
   ];
   return (
-    <footer>
-      <div className="float-right py-6 px-2 sm:py-8 sm:px-6">
-        <div className="flex space-x-2">
-          {links.map((link) => (
-            <IconLink key={link.url} {...link} />
-          ))}
-        </div>
+    <div className="float-right py-6 px-2 sm:py-8 sm:px-6">
+      <div className="flex space-x-2">
+        {links.map((link) => (
+          <IconLink key={link.url} {...link} />
+        ))}
       </div>
-    </footer>
+    </div>
   );
 }
 
