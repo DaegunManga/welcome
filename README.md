@@ -10,5 +10,5 @@
 
 ## Tasks
 
-[ ] Add more pages
-[ ] Welcome messages on home
+- [ ] Add more pages
+- [ ] Welcome messages on home
