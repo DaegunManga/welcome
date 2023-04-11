@@ -1,6 +1,6 @@
 # MANGA's Homepage
 
-<https://daegunmanga.github.io/invite>
+<https://daegunmanga.github.io/welcome>
 
 ## Stacks
 
