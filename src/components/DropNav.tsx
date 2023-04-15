@@ -8,7 +8,7 @@ export interface DropNavProps {
   children: Array<NavItem>;
 }
 
-const DropNav: React.FC<DropNavProps> = ({ text, children }) => {
+function DropNav({ text, children }: DropNavProps) {
   return (
     <li className="group">
       <button className="block p-5 text-sm text-gray-700 hover:text-black lg:p-6 lg:text-base">
@@ -27,6 +27,6 @@ const DropNav: React.FC<DropNavProps> = ({ text, children }) => {
       </div>
     </li>
   );
-};
+}
 
 export default DropNav;
